@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Album album1=new Album("RRR","M. M. Keeravani");
         album1.addSongToAlbum("Natu natu",5.55);
-        album1.addSongToAlbum("Dosti",5.5);
+        album1.addSongToAlbum("Dosti",5.52);
+        album1.addSongToAlbum("Janani",3.50);
         LinkedList<Songs> myPlayList=new LinkedList<>();
         album1.addToPlayListFromAlbum("Natu natu",myPlayList);
     }
